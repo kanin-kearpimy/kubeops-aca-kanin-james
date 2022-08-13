@@ -98,9 +98,9 @@ Using cargo run is more convenient than having to remember to run cargo build an
 
 - `$ gcc main.m`
 
-21. WebAssembly
-
-- `$ `
+21. WebAssembly: it's depended on original written language before. WebAssembly is compiling low-level language to become compatible with web-browser. The .wasm is already binary code.
+- C++ => `$ emcc [file].c` => output => [file].wasm
+- Rust => `$ wasm pack build [file].rs` => output => [file].wasm
 
 22. SQL
 
