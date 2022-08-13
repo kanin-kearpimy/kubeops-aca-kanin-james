@@ -76,7 +76,7 @@ Using cargo run is more convenient than having to remember to run cargo build an
 
 15. R
 
-- `$ `
+- `$ Rscript file.r`
 
 16. Carbon
 
@@ -113,7 +113,8 @@ Runs the SQL script file myscript.sql against the SQL Anywhere sample database.
 
 24. Assembly
 
-- `$ `
+- `$ nasm -f [os] assembly.asm`
+- Example: `$ nasm -f win32 assembly.asm`
 
 25. Switft
 
@@ -246,3 +247,4 @@ Runs the SQL script file myscript.sql against the SQL Anywhere sample database.
 - https://becominghuman.ai/top-10-best-web-application-development-languages-8204aad91bc4
 - https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows
 - https://harperdb.io/blog/is-bun-the-new-node-js/
+- https://www.delftstack.com/howto/r/run-r-script-from-command-line/
