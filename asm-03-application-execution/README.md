@@ -101,6 +101,7 @@ Using cargo run is more convenient than having to remember to run cargo build an
 21. WebAssembly: it's depended on original written language before. WebAssembly is compiling low-level language to become compatible with web-browser. The .wasm is already binary code.
 - C++ => `$ emcc [file].c` => output => [file].wasm
 - Rust => `$ wasm pack build [file].rs` => output => [file].wasm
+- AssemblyScript => `$ asc fib.ts --outFile fib.wasm`
 
 22. SQL
 
@@ -181,6 +182,7 @@ Also compile the package by running the swift build command and then run the bin
 9. WebAssembly: it's depended on original written language before. WebAssembly is compiling low-level language to become compatible with web-browser. The .wasm is already binary code.
 - C++ => `$ emcc [file].c` => output => [file].wasm
 - Rust => `$ wasm pack build [file].rs` => output => [file].wasm
+- AssemblyScript => `$ asc fib.ts --outFile fib.wasm`
 
 10. C#
 
