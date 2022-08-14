@@ -178,9 +178,9 @@ Also compile the package by running the swift build command and then run the bin
 
 - `$ tsc main.ts`
 
-9. WebAssembly
-
-- `$ `
+9. WebAssembly: it's depended on original written language before. WebAssembly is compiling low-level language to become compatible with web-browser. The .wasm is already binary code.
+- C++ => `$ emcc [file].c` => output => [file].wasm
+- Rust => `$ wasm pack build [file].rs` => output => [file].wasm
 
 10. C#
 
